@@ -1,0 +1,21 @@
+function funçâo(){
+//var n = document.getElementById("");
+let nome = prompt("qual o seu nome ? ");
+let idade = prompt("qual a sua idade ?");
+let pessoas = prompt("quantas pessoas estão envolvidas? ");
+
+if(idade >= 18){
+console.log("sua idade é " + 18 + "pode passar");
+}else{
+console.log("não pode passar");
+}
+
+if(pessoas >= 100){
+console.log("não pode passar");
+}else{
+console.log("pode passar");
+console.log("numero de participantes " + pessoas);
+}
+}
+
+
